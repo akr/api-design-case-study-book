@@ -24,4 +24,7 @@ p.92 Socket.ip_address_list
   127.0.1.1 は間違いと感じられるかもしれませんが、
   Debian GNU/Linux はいつのころからか /etc/hosts で、
   localhost は 127.0.0.1, ユーザが決めたホスト名は 127.0.1.1 を返すように設定されるようになりました。
+  このことについては Debian のマニュアルの
+  https://www.debian.org/doc/manuals/debian-reference/ch05.en.html#_the_hostname_resolution
+  というところに書いてあります。
 
