@@ -14,6 +14,14 @@
 
 ### 間違い:
 
+- p.55 コラム: ノンブロッキングI/OとRubyの歴史
+  「read と wirte がブロックする代わりに 0 が返ってくるという挙動です。」->
+  「read と write がブロックする代わりに 0 が返ってくるという挙動です。」
+
+- p.55 コラム: ノンブロッキングI/OとRubyの歴史
+  「read と wirte がブロックする代わりに EWOULDBLOCK エラーが発生するという挙動です。」->
+  「read と write がブロックする代わりに EWOULDBLOCK エラーが発生するという挙動です。」
+
 - p.89 Socket クラスの勧め
   「また、recv_io, recv_io メソッドは後述する recvmsg, sendmsg メソッドで対応します。」->
   「また、recv_io, send_io メソッドは後述する recvmsg, sendmsg メソッドで対応します。」
