@@ -16,15 +16,15 @@
 
 p.55 1行目: コラム: ノンブロッキングI/OとRubyの歴史  
 「read と wirte がブロックする代わりに 0 が返ってくるという挙動です。」->  
-「read と write がブロックする代わりに 0 が返ってくるという挙動です。」
+「read と **write** がブロックする代わりに 0 が返ってくるという挙動です。」
 
 p.55 9行目: コラム: ノンブロッキングI/OとRubyの歴史  
 「read と wirte がブロックする代わりに EWOULDBLOCK エラーが発生するという挙動です。」->  
-「read と write がブロックする代わりに EWOULDBLOCK エラーが発生するという挙動です。」
+「read と **write** がブロックする代わりに EWOULDBLOCK エラーが発生するという挙動です。」
 
 p.89 3行目: Socket クラスの勧め  
 「また、recv_io, recv_io メソッドは後述する recvmsg, sendmsg メソッドで対応します。」->  
-「また、recv_io, send_io メソッドは後述する recvmsg, sendmsg メソッドで対応します。」
+「また、recv_io, **send_io** メソッドは後述する recvmsg, sendmsg メソッドで対応します。」
 
 p.236 12行目: 秒未満の表現  
 「`2**-64`秒 (約`54.2**-21`秒)」 ->  
