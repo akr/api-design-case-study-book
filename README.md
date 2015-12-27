@@ -26,7 +26,7 @@ p.89 3行目: Socket クラスの勧め
 「また、recv_io, recv_io メソッドは後述する recvmsg, sendmsg メソッドで対応します。」->  
 「また、recv_io, **send_io** メソッドは後述する recvmsg, sendmsg メソッドで対応します。」
 
-p.106 7行目: ￼recv_ioとsend_ioメソッド
+p.106 7行目: ￼recv_ioとsend_ioメソッド  
 「まず 1 つの端末でサーバを**を**実行し、」->  
 「まず 1 つの端末でサーバを実行し、」
 
