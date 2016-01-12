@@ -23,8 +23,8 @@ p.55 9行目: コラム: ノンブロッキングI/OとRubyの歴史
 「read と **write** がブロックする代わりに EWOULDBLOCK エラーが発生するという挙動です。」
 
 p.86 17行目: Socket クラスの勧め
-「http://ruby-lan.org」->
-「http://ruby-lan**g**.org」
+「`http://ruby-lan.org`」->
+「`http://ruby-lan**g**.org`」
 
 p.89 3行目: Socket クラスの勧め  
 「また、recv_io, recv_io メソッドは後述する recvmsg, sendmsg メソッドで対応します。」->  
